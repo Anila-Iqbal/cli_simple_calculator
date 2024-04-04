@@ -12,7 +12,7 @@ const answer = await inquirer.prompt([
         choices: ["Addition", "Subtraction", "Multiplication", "Division"]
     },
 ]);
-//Conditional statement
+//Conditional statement:
 if (answer.operator === "Addition") {
     console.log(chalk.yellowBright.bold(answer.firstNumber + answer.secondNumber));
 }
